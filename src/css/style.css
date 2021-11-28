@@ -1,0 +1,391 @@
+body { 
+	font-family: Arial, sans-serif;
+}
+
+nav {
+	width: 1920px;
+	height: 60px;
+	background: #344051
+}
+
+.logo_menu {
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+}
+
+.menu {
+	font-size: 20px;
+	line-height: 60px;
+	padding-left: 430px;
+	float: left;
+}
+
+.menu li {
+	color: #ffffff;
+	margin-right: 40px;
+	float: left;
+}
+
+.first_page {
+	background: url(../img/парень.png) no-repeat 85% 100%/auto 90%, url(../img/фон.jpg) center/cover, no-repeat;
+	width: 1920px;
+	height: calc(100% - 60px);
+}
+
+.title {
+	float: left;
+	margin: 400px 0px 0px 300px;
+	text-align: center;
+	color: #2c384a;
+}
+
+.title h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.title h2 {
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.title input {
+	margin-right: 26px;
+	height: 40px;
+	font-size: 15px;
+	border: 2px solid #6D7682;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 58px 14px 0px 14px;
+	background: none;
+}
+
+.second_page {
+	background: url(../img/черта_оранж.png) no-repeat 50% 18%, url(../img/фотка_обо_мне.png) no-repeat 50% 35%, url(../img/фон2.jpg) center/cover no-repeat;
+	width: 1920px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.second_page h2 {
+	margin: 110px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244
+	
+}
+
+.summary {
+	text-align: left;
+	font-size: 15px;
+	color: #3f495a
+}
+
+.summary1 {
+	margin: 450px 0px 0px 600px;
+}
+
+.summary2 {
+	margin: 50px 0px 0px 600px;
+}
+
+.summary_link input {
+background: url(../img/скачать.png) no-repeat 10% 50%;
+margin: 50px 46%;
+border: solid 2px #6D7682;
+height: 30px;
+padding: 0px 10px 0px 30px;
+border-radius: 5px;
+color: #263244
+}
+
+.third_page {
+	background: url(../img/черта_оранж.png) no-repeat 50% 18%, 
+	 url(../img/ноут.png) no-repeat 20% 300px,  url(../img/знак.png) no-repeat 40% 300px,  url(../img/ракета.png) no-repeat 60% 300px, url(../img/граммофон.png) no-repeat 80% 300px,
+	 url(../img/фон3.jpg) center/cover no-repeat;
+	height: 100%;
+	width: 1920px;
+	float: left;
+	text-align: center;
+}
+
+.third_page h2 {
+	margin: 110px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244
+}
+
+.skills_list ul {
+	margin-left: 18%; 
+}
+
+
+.skills_list1 li {
+	font-family: Bahnschrift, Arial;
+	color: #cf7600;
+	font-size: 20px;
+	font-weight: bold;
+float: left;
+margin-top: 240px;
+padding-right: 265px;
+}
+
+.skills_list2 li {
+	font-family: Bahnschrift, Arial;
+	color: #cf7600;
+	font-size: 20px;
+	font-weight: bold;
+float: left;
+margin-top: 240px;
+padding-right: 260px;
+margin-left: -35px;
+}
+
+.fourth_page {
+	background: url(../img/черта_оранж.png) no-repeat 50% 15%, url(../img/фотка_кейсы.png) 50% 50% no-repeat, 
+	url(../img/зеленый_прямоугольник.png) 22% 1050px no-repeat, url(../img/фон2.jpg) center/cover no-repeat;
+	height: 1200px;
+	width: 1920px;
+	float: left;
+	text-align: center;
+}
+
+.fourth_title h2 {
+		margin: 110px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244
+}
+
+.cases_description {
+	font-family: Bahnschrift, Arial;
+	margin-top: 80px;
+	color: #3f495a;
+	font-size: 20px;
+}
+
+.cases_tags {
+	font-size: 20px;
+	color: #384354;
+	font-weight: 600;
+	text-align: left;
+	margin: 35% 0px 0px 380px;
+}
+
+.cases_tags p {
+	padding-bottom: 15px;
+}
+
+.cases_links p {
+	font-size: 15px;
+}
+
+.cases_name {
+	text-align: left;
+	margin: -135px 0px 0px 650px;
+}
+
+.name_of_case {
+	font-size: 20px;
+	font-weight: 600;
+	color: #384354
+}
+
+.description_of_case {
+	font-size: 18px; 
+	color: #384354
+}
+
+
+.fifth_page {
+	background: url(../img/линия_подытога.png) no-repeat 50% 65%, url(../img/фон2.jpg) center/cover no-repeat;
+	width: 1920px;
+	height: 800px;
+	text-align: center;
+	float: left;
+}
+
+.fifth_title {
+	font-family: Franklin Gothic Medium, Arial;
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 40px;
+	color: #1c2534;
+}
+
+.fifth_page p {
+	margin-top:  50px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #1c2534;
+}
+
+.fifth_page select {
+	margin-top: 30px;
+}
+
+.answer	p {
+	text-align: left;
+	margin: 70px 0px 0px 515px;
+	color: #1c2534;
+}
+
+.quantity p {
+	padding-left: 800px;
+	margin-top: -130px;
+	padding: 0px 0px 190px 850px;
+	color: #1c2534;
+}
+
+.sixth_page {
+	background: url(../img/черта_оранж.png) no-repeat 50% 30%, 
+	url(../img/смайл.png) 20% 50%/80px 80px no-repeat, url(../img/скобки.png) 40% 50%/80px 80px no-repeat,
+	url(../img/галочка.png) 60% 50%/80px 80px no-repeat, url(../img/кубок.png) 80% 50%/80px 80px no-repeat,
+	url(../img/фон4.jpg) center/cover no-repeat;
+	height: 100%;
+	width: 1920px;
+float: left;
+text-align: center;
+}
+
+.sixth_title h2 {
+		margin: 200px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244
+}
+
+.stats span {
+	text-align: left;
+}
+
+.stat_number {
+	display: block;
+	font-family: Impact, Arial;
+	font-size: 40px;
+float: left;
+padding-left: 150px;
+padding-top: 400px;
+color: #263244
+}
+
+.stat_name {
+	float: left;
+	padding-top: 500px; 
+	padding-left: 10px;
+	color: #263244;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.seventh_page {
+	width: 100%;
+	background: url(../img/черта_оранж.png) no-repeat 50% 30%, url(../img/фотка_отзыв.png) 50% 40% no-repeat, url(../img/фон2.jpg) center/cover no-repeat; 
+	height: 100%;
+	width: 100%;
+float: left;
+text-align: center;
+}
+
+.seventh_page h2 {
+		margin: 200px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #263244
+}
+
+.review {
+	display: block;
+	margin: 250px 0px 0px 0px; 
+	font-size: 25px;
+	color: #263244
+}
+
+.review_client {
+	margin-top: 50px;
+	font-size: 15px;
+	color: #263244
+}
+
+.review_client span {
+	font-weight: bold;
+}
+
+.eighth_page {
+	width: 100%;
+background: url(../img/черта_оранж.png) no-repeat 50% 30%,
+url(../img/фон5.jpg) center/cover no-repeat;
+float: left;
+height: 100%;
+text-align: center;
+}
+
+.eighth_title {
+	margin: 200px 0px 0px 0px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.contact_description {
+	color: #fff;
+	margin-top: 100px;
+}
+
+.contact_images img {
+	margin: 100px 0px 0px 0px;
+	padding-left: 250px; 
+}
+
+.contact_images {
+	margin-right: 250px;
+}
+
+.c1 {
+	color: #fff;
+	display: block;
+	margin-right: 550px;
+	margin-top: 50px;
+}
+
+.c2 {
+	color: #fff;
+	display: block;
+margin-top: -30px;
+}
+
+.c3 {
+	color: #fff;
+	display: block;
+	margin-left: 550px;
+	margin-top: -15px;
+}
+
+.contact_with_me {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.contact_options {
+	margin-top: 30px;
+}
+
+.ninth_page {
+	height: 1080px;
+	width: 1920px;
+	background: url(../img/карта.jpg) center/cover no-repeat;
+}
+
+footer p {
+	height: 60px;
+	width: 1920px;
+	background: #344051;
+margin-top: 100px;
+}
