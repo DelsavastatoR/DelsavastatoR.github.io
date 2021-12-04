@@ -44,7 +44,7 @@ main {
 	animation: spin 1s infinite linear;
 }
 
-.preloader.done {
+.done {
 	opacity: 0;
 	visibility: hidden
 }
